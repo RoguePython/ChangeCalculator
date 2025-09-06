@@ -1,0 +1,12 @@
+D:\Projects\ChangeCalculator\ChangeCalculator.Core\bin\Debug\net9.0\ChangeCalculator.Core.deps.json
+D:\Projects\ChangeCalculator\ChangeCalculator.Core\bin\Debug\net9.0\ChangeCalculator.Core.dll
+D:\Projects\ChangeCalculator\ChangeCalculator.Core\bin\Debug\net9.0\ChangeCalculator.Core.pdb
+D:\Projects\ChangeCalculator\ChangeCalculator.Core\obj\Debug\net9.0\ChangeCalculator.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ChangeCalculator\ChangeCalculator.Core\obj\Debug\net9.0\ChangeCalculator.Core.AssemblyInfoInputs.cache
+D:\Projects\ChangeCalculator\ChangeCalculator.Core\obj\Debug\net9.0\ChangeCalculator.Core.AssemblyInfo.cs
+D:\Projects\ChangeCalculator\ChangeCalculator.Core\obj\Debug\net9.0\ChangeCalculator.Core.csproj.CoreCompileInputs.cache
+D:\Projects\ChangeCalculator\ChangeCalculator.Core\obj\Debug\net9.0\ChangeCalculator.Core.sourcelink.json
+D:\Projects\ChangeCalculator\ChangeCalculator.Core\obj\Debug\net9.0\ChangeCalculator.Core.dll
+D:\Projects\ChangeCalculator\ChangeCalculator.Core\obj\Debug\net9.0\refint\ChangeCalculator.Core.dll
+D:\Projects\ChangeCalculator\ChangeCalculator.Core\obj\Debug\net9.0\ChangeCalculator.Core.pdb
+D:\Projects\ChangeCalculator\ChangeCalculator.Core\obj\Debug\net9.0\ref\ChangeCalculator.Core.dll
