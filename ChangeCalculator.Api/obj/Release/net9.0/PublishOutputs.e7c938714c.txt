@@ -1,0 +1,14 @@
+D:\Projects\ChangeCalculator\publish\ChangeCalculator.Api.exe
+D:\Projects\ChangeCalculator\publish\appsettings.Development.json
+D:\Projects\ChangeCalculator\publish\appsettings.json
+D:\Projects\ChangeCalculator\publish\ChangeCalculator.Api.dll
+D:\Projects\ChangeCalculator\publish\ChangeCalculator.Api.deps.json
+D:\Projects\ChangeCalculator\publish\ChangeCalculator.Api.runtimeconfig.json
+D:\Projects\ChangeCalculator\publish\ChangeCalculator.Api.pdb
+D:\Projects\ChangeCalculator\publish\Microsoft.AspNetCore.OpenApi.dll
+D:\Projects\ChangeCalculator\publish\Microsoft.OpenApi.dll
+D:\Projects\ChangeCalculator\publish\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\ChangeCalculator\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\ChangeCalculator\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\ChangeCalculator\publish\ChangeCalculator.Core.dll
+D:\Projects\ChangeCalculator\publish\ChangeCalculator.Core.pdb
