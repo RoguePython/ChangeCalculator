@@ -30,10 +30,20 @@ public sealed class ChangeCalculatorService : IChangeCalculatorService
         if (amount < 0)
             throw new ArgumentOutOfRangeException(nameof(amount), "Amount must be non-negative.");
 
-        // Round to 2 decimals (banker’s rounding) and convert to cents
-        var cents = (int)Math.Round(amount * 100m, MidpointRounding.AwayFromZero);
+        // Guard against extreme values (e.g., billions of Rands)
+        if (amount > 1_000_000_000m) // pick a safe, reasonable upper bound
+            throw new ArgumentOutOfRangeException(nameof(amount), "Amount is too large to process.");
 
-        // Smallest denomination is 10c — if remainder < 10 cents, reject as not exactly representable
+        int cents;
+        try
+        {
+            cents = checked((int)Math.Round(amount * 100m, MidpointRounding.AwayFromZero));
+        }
+        catch (OverflowException)
+        {
+            throw new ArgumentOutOfRangeException(nameof(amount), "Amount is too large to process.");
+        }
+
         var remainder = cents % 10;
         if (remainder != 0)
             throw new ArgumentException("Amount must be representable using denominations down to 10 cents.", nameof(amount));
